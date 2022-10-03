@@ -561,8 +561,9 @@ h4 {
   top: 0;
   bottom: 0;
   border-radius: 50px;
-  background: #cf6161c9;
+  background: #000000;
   transition: all 0.3s;
+  color: white;
 }
 .btn1 span {
   position: relative;
@@ -574,7 +575,7 @@ h4 {
   color: #fff;
 }
 .btn1:hover:after {
-  background: #cf6161;
+  background: #5e5e5e;
 }
 
 .btn2 {
@@ -583,7 +584,7 @@ h4 {
   overflow: hidden;
   vertical-align: middle;
   line-height: 50px;
-  color: #fff;
+  color: #fff !important;
   font-weight: 700;
   text-transform: uppercase;
   padding: 0 37px;
@@ -598,7 +599,7 @@ h4 {
   top: 0;
   bottom: 0;
   border-radius: 50px;
-  background: #cf6161;
+  background: #000000;
   transition: all 0.3s;
 }
 .btn2 span {
@@ -1741,6 +1742,12 @@ header {
   z-index: 99999;
   transition: all 0.3s;
 }
+.sticky .logo a{
+  width: 30% !important;
+}
+.logo a{
+  width: 40%;
+}
 header .logo a {
   display: inline-block;
   margin-left: 40px;
@@ -1759,7 +1766,6 @@ header.sticky .logo {
   top: 0;
 }
 header.sticky .logo a {
-  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.08);
   width: 70%;
 }
 header.sticky .main-menu-tab {
@@ -1805,7 +1811,7 @@ header .mobile-menu-area .mean-container .mean-nav ul li ul {
 }
 
 header .main-menu-tab {
-  margin-top: 70px;
+  margin-top: 30px;
   display: block;
 }
 header .main-menu-tab .menu-buttons {
@@ -1967,14 +1973,14 @@ header .main-menu-tab .menu-buttons li .btn2:hover {
   right: 0;
   top: 0;
   bottom: 0;
-  background: rgba(0, 0, 0, 0.6);
+  background: #f5f4f0;
 }
 .slider-area .carousel-inner .item .carousel-captions .slider-content {
   position: relative;
   z-index: 999;
   display: block;
   text-align: center;
-  padding: 300px 0 270px;
+  padding: 140px 0 0px;
 }
 .slider-area .carousel-inner .item .carousel-captions .slider-content .content {
   display: inline-block;
@@ -1993,7 +1999,7 @@ header .main-menu-tab .menu-buttons li .btn2:hover {
 }
 .slider-area .carousel-inner .item .carousel-captions .slider-content .content h2 {
   font-size: 60px;
-  color: #fff;
+  color: rgb(33, 33, 33);
   font-weight: 400;
   text-transform: uppercase;
   display: block;
@@ -2061,6 +2067,9 @@ header .main-menu-tab .menu-buttons li .btn2:hover {
 .slider-area .slider-social li a:hover:after {
   top: 0;
   bottom: 0;
+}
+.copyright a{
+  color:#cf6161 ;
 }
 
 /*....................................
@@ -3285,6 +3294,11 @@ footer .footer-top .instagram ul li:hover i {
   text-align: center;
   font-size: 30px;
 }
+.
+.info-list{
+  display: flex;
+  align-items: center;
+}
 
 /*....................................
 12. Product area start here
@@ -4164,7 +4178,7 @@ select option {
     transition: all 0.5s;
 }
 .menu-buttons li a {
-	color:#ffffff;
+	color:#1e1e1e;
 }
 #map{
 	width:100%;
