@@ -33,6 +33,7 @@ body {
   vertical-align: baseline;
   line-height: 26px;
   font-weight: 400;
+  scroll-behavior: smooth;
 }
 
 /* ....................................
@@ -125,6 +126,71 @@ button:active {
   outline: none;
   box-shadow: none;
   border: none;
+}
+
+.social-menu ul{
+  position: absolute;
+  bottom: -5%;
+  left: 55px;
+  padding: 0;
+  margin: 0;
+  transform: translate(-50%, -50%);
+  display: block;
+  position: fixed;
+}
+
+.social-menu ul li{
+  list-style: none;
+  margin-bottom:  15px;
+}
+
+.social-menu ul li .fab{
+  font-size: 30px;
+  line-height: 60px;
+  transition: .3s;
+  color: #000;
+}
+.fa-solid{
+  color: black;
+  font-size: 35;
+}
+.social-menu ul li .fab:hover{
+  color: #fff;
+}
+.social-menu ul li .fa-solid:hover{
+  color: white !important;
+}
+
+.social-menu ul li a{
+  display: flex;
+align-content: center;
+justify-content: center;
+align-items: center;
+  position: relative;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: #fff;
+  text-align: center;
+  transition: .6s;
+  box-shadow: 0 5px 4px rgba(0,0,0,.5);
+}
+
+.social-menu ul li a:hover{
+  transform: translate(0, -10%);
+}
+
+.social-menu ul li:nth-child(1) a:hover{
+  background-color: rgba(0, 254, 106, 0.829);
+}
+.social-menu ul li:nth-child(2) a:hover{
+  background-color: #0077b5;
+}
+.social-menu ul li:nth-child(3) a:hover{
+  background-color: #0077b5;
+}
+.social-menu ul li:nth-child(4) a:hover{
+  background-color: #000;
 }
 
 /*---------------Page Loader---------------------*/
@@ -3294,7 +3360,7 @@ footer .footer-top .instagram ul li:hover i {
   text-align: center;
   font-size: 30px;
 }
-.
+
 .info-list{
   display: flex;
   align-items: center;
