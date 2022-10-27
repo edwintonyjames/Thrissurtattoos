@@ -122,6 +122,12 @@ button:focus {
   box-shadow: none;
   border: none;
 }
+.cat-txt{
+  color: #cf6161;position: absolute;
+  text-align: center;
+  top: 66%;
+  width: 100%;
+}
 button:active {
   outline: none;
   box-shadow: none;
@@ -3550,6 +3556,31 @@ footer .footer-top .instagram ul li:hover i {
     transition: all 0.5s;
 	visibility:hidden;
 }
+.gridWrapper{
+  display: flex;
+  justify-content: center;
+}
+#gallery{
+  background-color: #f5f4f0 !important;
+}
+.filterts li{
+  content: '';
+position: absolute;
+left: 0;
+top: 50%;
+bottom: 50%;
+width: 2px;
+background: #cf6161;
+transition: all 0.3s;
+}
+.portfolio-wrapper{
+  padding: 18px;
+  padding-bottom: 0px;
+  border-radius: 2px;
+}
+.portfolio-wrapper h2{
+  color: black;
+}
 .portfolio-thumb:hover .gc_filter_cont_overlay {
   background-color:rgba(255, 255, 255, 0.85);
   opacity:1;
@@ -3573,10 +3604,15 @@ footer .footer-top .instagram ul li:hover i {
 	text-align:center;
 	line-height:40px;
 	font-size:15px;
+  
 }
 .gc_filter_cont_overlay_wrapper:hover .gc_filter_cont_overlay i{
 	color:#cf6161;
 	opacity:1;
+}
+.gc_filter_cont_overlay_wrapper{
+  
+  border-radius: 20px;
 }
 .gc_filter_text {
       color: white;

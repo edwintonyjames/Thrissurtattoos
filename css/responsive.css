@@ -133,7 +133,10 @@
 	.banner-area form button{float: none;}
 	.banner-area{padding:90px 0;}
 	.testimonial-area .testimonial-list .content{padding: 40px 20px;}
-	.testimonial-area .owl-controls .owl-buttons{display: none;}
+	.testimonial-area .owl-controls .owl-buttons{ top: 5%;
+		right: 0;
+		left: auto;
+	}
 	.appointment-area .app-form form fieldset .w-50{width: 100%;float: none !important;padding: 0;margin: 0 0 20px;}
 	.appointment-area .app-form form fieldset .w-50:last-child{margin: 0;}
 	
