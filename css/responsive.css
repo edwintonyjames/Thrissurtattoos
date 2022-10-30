@@ -69,7 +69,7 @@
 
 /* Small Devices, Tablets */
 @media only screen and (max-width : 767px) {
-	header{overflow: visible;}
+	
 	header .container-fluid{display: none;}
 	.mobile-menu-area{display: block !important;}
 	.slider-area .carousel-inner .item .carousel-captions .slider-content{padding: 200px 0;}
@@ -94,12 +94,12 @@
 }
 
 .pt-180{
-	padding-top: 180px;
+	padding-top: 160px;
 }
 
 /* Extra Small Devices, Phones */ 
 @media only screen and (max-width : 480px) {
-	.slider-area .carousel-inner .item .carousel-captions .slider-content{padding: 120px 0 10px;}
+	.slider-area .carousel-inner .item .carousel-captions .slider-content{padding: 120px 20px 10px;}
 	.slider-area .carousel-inner .item .carousel-captions .slider-content .content h2{font-size: 42px;}
 	.slider-area .slider-social{right: 30px;}
 	.about-area{padding: 75px 0 !important;}
@@ -136,6 +136,10 @@
 	.testimonial-area .owl-controls .owl-buttons{ top: 5%;
 		right: 0;
 		left: auto;
+	}
+	.foo-social{
+		padding-left: 20px;
+		padding-right: 20px;
 	}
 	.appointment-area .app-form form fieldset .w-50{width: 100%;float: none !important;padding: 0;margin: 0 0 20px;}
 	.appointment-area .app-form form fieldset .w-50:last-child{margin: 0;}
