@@ -99,6 +99,7 @@
 
 /* Extra Small Devices, Phones */ 
 @media only screen and (max-width : 480px) {
+	.gc_logo{width: 160%;}
 	.slider-area .carousel-inner .item .carousel-captions .slider-content{padding: 120px 20px 10px;}
 	.slider-area .carousel-inner .item .carousel-captions .slider-content .content h2{font-size: 42px;}
 	.slider-area .slider-social{right: 30px;}
